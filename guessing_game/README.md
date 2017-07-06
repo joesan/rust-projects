@@ -13,6 +13,7 @@ project onto your local machine
 To run the application, do the following:
 
 ```
+
 1. Navigate to the project's root folder
 2. Issue the following command:
    cargo run
