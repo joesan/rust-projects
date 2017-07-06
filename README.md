@@ -26,20 +26,10 @@ Follow the steps below to import the project into IntelliJ
    
 ```
 
-### Running tests
-
-[[TODO]]
-
 ### Running the application
 
-This application is built as a web application using the Play framework. To run the application,
-perform the following steps: TODO: Descibe how to dockerize!
-
-[[TODO]]
-
-## Deployment
-
-[[TODO]] Add additional notes about how to deploy this on a live system
+Since this is just a collection of several smaller projects that demonstrates my experiences with learning Rust programming,
+navigate into the the respective projects and follow the README instructions.
 
 ## Built With
 
