@@ -1,7 +1,5 @@
-# number guessing game
-A simple game to guess a number between a given range where you play against the system
-
-For simplicity, this game allows you to guess a number between 1 and 100
+# Rust Projects
+A collection of Rust projects
 
 ## Getting Started
 
@@ -21,7 +19,7 @@ See deployment for notes on how to deploy the project on a live system.
 Follow the steps below to import the project into IntelliJ
 
 ```
-1. Clone the project from: 
+1. Clone the project from (this will clone the entire set of projects): 
    git clone https://github.com/joesan/rust-projects.git
    
 2. Fire up IntelliJ and import the project
