@@ -35,10 +35,6 @@ navigate into the the respective projects and follow the README instructions.
 
 * [Cargo](https://github.com/rust-lang/cargo) - The Rust package manager
 
-## Contributing
-
-[[TODO]] Add CONTRIBUTING.md to the project root
-
 ## Authors / Maintainers
 
 * *Joesan*           - [Joesan @ GitHub](https://github.com/joesan/)
