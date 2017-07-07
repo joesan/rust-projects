@@ -5,13 +5,12 @@ mod joesan {
         println!("called `joesan::private_function()`");
     }
 
-    // Use the `pub` modifier to override default visibility.
+    // Use the `pub` modifier to override default private visibility.
     pub fn public_function() {
         println!("called `joesan::public_function()`");
     }
 
-    // Items can access other items in the same module,
-    // even when private.
+    // Functions within the same module can access other functions.
     pub fn indirect_access() {
         print!("called `joesan::indirect_access()`, that\n> ");
         private_function();
@@ -20,7 +19,7 @@ mod joesan {
     // Modules can also be nested
     pub mod nested {
         pub fn function() {
-            println!("called `my::nested::function()`");
+            println!("called `joesan::nested::function()`");
         }
 
         #[allow(dead_code)]
