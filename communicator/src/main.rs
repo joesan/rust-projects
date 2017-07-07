@@ -24,7 +24,7 @@ mod joesan {
 
         #[allow(dead_code)]
         fn private_function() {
-            println!("called `my::nested::private_function()`");
+            println!("called `joesan::nested::private_function()`");
         }
     }
 
@@ -32,7 +32,7 @@ mod joesan {
     mod private_nested {
         #[allow(dead_code)]
         pub fn function() {
-            println!("called `my::private_nested::function()`");
+            println!("called `joesan::private_nested::function()`");
         }
     }
 }
