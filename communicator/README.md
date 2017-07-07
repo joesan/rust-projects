@@ -1,7 +1,5 @@
 # communicator as a library
-A simple game to guess a number between a given range where you play against the system
-
-For simplicity, this game allows you to guess a number between 1 and 100
+Demonstrate module features in Rust
 
 ## Getting Started
 
@@ -15,6 +13,6 @@ To run the application, do the following:
 ```
 
 1. Navigate to the project's root folder
-2. Issue the following command:
+2. Issue the following command (to see how the modules work):
    cargo run
 ```
