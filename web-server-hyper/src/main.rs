@@ -3,6 +3,7 @@ extern crate futures;
 
 use hyper::header::ContentLength;
 use hyper::server::{Http, Request, Response, Service};
+use hyper::{Method, StatusCode};
 
 struct HelloWorld;
 
