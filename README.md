@@ -1,5 +1,5 @@
 # Rust Projects
-A collection of Rust projects
+A collection of Rust projects that I would like to keep track of to show my progress in learning this beautiful language that I'm addicted to!
 
 ## Getting Started
 
