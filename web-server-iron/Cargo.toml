@@ -1,0 +1,31 @@
+[package]
+name = "webserver-iron"
+version = "0.1.0"
+authors = ["Joesan  <codeintheopen@gmail.com>"]
+
+[[bin]]
+name = "webapp_demo_server"
+
+# For async computations
+futures = "*"
+
+tokio-core = "0.1"
+
+tokio-timer = "*"
+
+tokio-service = "*"
+
+# Wildcard path parameter matching
+route-recognizer = "*"
+
+# Consistent error handling for Rust based projects
+error-chain = "*"
+
+# SERialize and DEserialize Rust data structures
+serde = "*"
+
+# JSON SERialization and DEserialization
+serde_json = "*"
+
+# Provide SERialization and DEserialization at compile time
+serde_derive = "*"
