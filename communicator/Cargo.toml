@@ -1,6 +1,6 @@
 [package]
 name = "communicator"
 version = "0.1.0"
-authors = ["joesan <codeintheopen@gmail.com>"]
+authors = ["joesan <https://github.com/joesan>"]
 
 [dependencies]
