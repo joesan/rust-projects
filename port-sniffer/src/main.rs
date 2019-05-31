@@ -3,6 +3,7 @@ extern crate config;
 
 #[macro_use]
 extern crate serde_derive;
+extern crate chrono;
 
 mod app_config;
 
@@ -17,6 +18,8 @@ use std::thread;
 use config::ConfigError;
 use core::borrow::Borrow;
 use std::error::Error;
+use chrono::NaiveTime;
+use chrono::prelude::*;
 
 
 const MAX: u16 = 65535;
@@ -45,6 +48,9 @@ fn scan(tx: Sender<u16>, start_port: u16, addr: IpAddr, num_threads: u16) {
 }
 
 fn main() {
+    // Benchmarking
+    let start_time: NaiveTime = Utc::now().time();
+
     // First set up the AppConfig
     let cfg_result = AppConfig::new();
     println!("{:?}", cfg_result);
@@ -76,4 +82,8 @@ fn main() {
         Err(error) =>
             eprintln!("Something is fucked up because of {}", error)
     }
+    let end_time: NaiveTime = Utc::now().time();
+
+    // Calculate how long it took to run the program
+    println!("Total time taken to run is {}", end_time - start_time);
 }
